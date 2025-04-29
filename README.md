@@ -4,8 +4,7 @@
 
 ## Características
 
-- 🚜 Robot móvil con tracción en las 4 ruedas
-- 🎯 Detección de frambuesas mediante inteligencia artificial (YOLO)
+- 🎯 Detección de frambuesas mediante inteligencia artificial (YOLO8n)
 - 🦾 Brazo robótico de 6 grados de libertad
 - 🎥 Cámara estereoscópica para detección en 3D
 - 🧠 Control basado en RaspberryPi + Python
@@ -17,3 +16,6 @@ Reducir la dependencia de mano de obra para la recolección de berries, mejorar 
 
 ## Estructura del proyecto
 
+Nuestro proyecto consta de dos secciones, la primera siendo un brazo de seis grados de libertad, está construido a base de PLA y servomotores, con un Arduino UNO para control interior, la segunda sección siendo un módulo de identificación de objetos compuesto por un Raspberry PI 4, un módulo de cámara PI V2, y una conexión serial entre el PI 4 y el Arduino. 
+
+Nuestro prototipo reconoce los frutos en sus diferentes etapas de crecimiento, desde su inicio de crecimiento hasta su punto de recolección ideal utilizando un modelo de IA YOLO8n para identificación de objetos, y cuando identifica las posiciones deseadas, es capaz realizar movimientos complejos en el plano tridimensional, necesarios para recoger frutos en diferentes configuraciones de cultivos de manera óptima y garantizando que los frutos que recogidos queden en excelente estado.  
