@@ -4,7 +4,7 @@
 
 ## Características
 
-- 🎯 Detección de frambuesas mediante inteligencia artificial (YOLO8n)
+- 🎯 Detección de frambuesas mediante inteligencia artificial (YOLO11)
 - 🦾 Brazo robótico de 6 grados de libertad
 - 🎥 Cámara estereoscópica para detección en 3D
 - 🧠 Control basado en RaspberryPi + Python
